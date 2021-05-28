@@ -1,0 +1,44 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  background: url(./img/finale.png) no-repeat center
+    center fixed ;
+    
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Lato', 'Cabin', sans-serif;
+}
+h1 {
+  font-size: 3rem;
+  color: #e06c1a;
+}
+hr {
+  border: 2px solid white;
+  max-width: 85px;
+  margin: auto;
+  margin-bottom: 3px;
+  border-radius: 10px;
+}
+.buffer{
+  height:4rem;
+}
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+.btn-primary {
+  background-color: rgb(51, 111, 146);
+  border-color: rgb(51, 111, 146);
+}
+.btn-primary:hover  {
+  background-color: rgb(14, 66, 97);
+  border-color: rgb(14, 66, 97);
+  border-width: 3px;
+}
+.btn-xl {
+  padding: 1rem 2rem;
+}
